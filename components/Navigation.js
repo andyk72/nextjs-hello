@@ -1,7 +1,8 @@
 import Link from "next/link";
+import styles from './Navigation.module.css';
+
 export default () => (
-  <nav>
-    <Link href="/">Home</Link> |<Link href="/about">About</Link> |
-    <Link href="/day">Day</Link>
+  <nav className={ styles.nav }>
+    <Link href="/"><a className={ styles.navItem }>Home</a></Link><Link href="/about"><a className={ styles.navItem }>About</a></Link><Link href="/day"><a className={ styles.navItem }>Day</a></Link>
   </nav>
 );

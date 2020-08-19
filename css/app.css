@@ -1,0 +1,15 @@
+:root {
+    --color-red: #E63946;
+    --color-white: #F1FAEE;
+    --color-blue-light: #A8DADC;
+    --color-blue-medium: #457B9D;
+    --color-blue-dark: #1D3557;
+}
+
+html, body, #__next {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}

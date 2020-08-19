@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--color-blue-dark);
+}
+
+.navItem {
+    flex: 0 0 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navItem:active,
+.navItem:visited {
+    color: var(--color-blue-light);
+}
+
+.navItem:hover {
+    color: var(--color-blue-medium);
+}
