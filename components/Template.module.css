@@ -1,0 +1,12 @@
+.root {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #eee;
+}

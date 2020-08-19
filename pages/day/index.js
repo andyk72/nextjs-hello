@@ -1,9 +1,9 @@
 import Template from "../../components/Template";
 
-export default () => {
+export default (props) => {
   return (
     <Template>
-      <div>Day</div>
+      <div>{ props.day || new Date().toUTCString() }</div>
     </Template>
   );
 };

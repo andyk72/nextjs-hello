@@ -1,7 +1,9 @@
 import Navigation from "../components/Navigation";
+import styles from './Template.module.css';
+
 export default props => (
-  <div>
+  <div className={ styles.root }>
     <Navigation />
-    <main className="main">{props.children}</main>
+    <main className={ styles.main }>{props.children}</main>
   </div>
 );
